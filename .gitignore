@@ -1,0 +1,23 @@
+# IDE/Editor directories and files
+.idea/
+.settings/
+.classpath
+.project
+
+# Logs
+logs/
+
+# Target build directories
+target/
+
+# Maven
+/target/
+
+# Config files with sensitive information
+src/test/resource/configs/configFile.properties
+
+# Test reports
+report/
+
+# macOS specific
+.DS_Store

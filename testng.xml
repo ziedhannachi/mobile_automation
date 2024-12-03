@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+      <test name="MyPhone">
+        <parameter name="platformName" value="Android" />
+        <parameter name="udid" value="emulator-5554" />
+        <parameter name="deviceName" value="sdk_gphone64_x86_64" />
+        <classes>
+            <class name="com.e2eTests.binitns.runner.myPhoneRunnerTest"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
